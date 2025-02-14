@@ -1,0 +1,115 @@
+:root {
+    --main-yellow: #D9A84E;
+    --hover-color: rgba(193, 154, 76, 0.8);
+    --main-background-color:#204031;
+}
+/* Start Fonts Colors */
+.c-white{
+    color: white;
+}
+.c-yellow{
+    color: var(--main-yellow);
+}
+.c-black{
+    color: black;
+}
+/* End Fonts Colors */
+
+/* Margin and Padding */
+.m-0{
+    margin: 0;
+}
+.m-bottom{
+    margin-bottom: 20px;
+}
+.txt-center{
+    text-align: center;
+}
+
+/* Start Position */
+.flex{
+    display: flex;
+}
+/* End Position */
+
+
+
+
+/* Main Button */
+.btn-shape{
+    color: white;
+background-color: #c09a4c;
+padding: 17px 53px;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+font-size: 14px;
+display: block;
+width: fit-content;
+margin: auto;
+transition: 0.3s;
+}
+.btn-shape:hover{
+    background-color: var(--hover-color);
+}
+
+/* Headline */
+.headline{
+    
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.headline::before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px 0 0;
+    margin: 0;
+    margin-right: 25px;
+}
+
+/* Main Heading */
+.main-heading{
+    color: var(--main-yellow);
+    line-height: 50px;
+    letter-spacing: 1px;
+    margin-top: 0;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+/* View More Element */
+ .view-more{
+    color: var(--main-yellow);
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.view-more:hover{
+    color: white;
+}
+.view-more a{
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.view-more i{
+    margin-left: 8px;
+    font-weight: 100;
+    font-size: 10px;
+}
+
+
+.p-style{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Jost", sans-serif;
+}
